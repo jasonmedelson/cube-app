@@ -1,0 +1,17 @@
+.display:hover{
+    color: white !important;
+}
+.thumbnail{
+    height: 470px;
+    background: lightgray;
+}
+.img-responsive{
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.img-responsive:hover {
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
