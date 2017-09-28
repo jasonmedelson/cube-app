@@ -11,4 +11,7 @@ urlpatterns = [
     #/cards/2/
     url(r'(?P<pk>[0-9]+)/$', views.CardUpdate.as_view(), name='card-update'),
 
+    # /cards/add
+    url(r'^pack/$', views.pack, name='pack'),
+
 ]
